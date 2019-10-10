@@ -212,28 +212,31 @@ Streaming dos jogos com OBs Stuido/StreamlabsOBS = Upload alto.
 \section{Planta Lógica - Elementos estruturados}
 
 \subsection{Estado atual}
-Deve ter a planta atual, se for o caso
 
 \subsection{Topologia}
-Proposta futura, proposta após implantação.
-Deve conter o diagrama da rede. Atente-se a redundância  e ligações truncadas.
-Deve explicar todos termos e componentes utilizados nestas plantas. Por exemplo: entrance facility, work area, horizontal cabling, etc..
+	Abaixo um breve planta da casa e como seria distribuído seus equipamentos e cabeamento pela mesma 
 
-Todos os elementos das figuras devem ser explicados. 
-Crie esboço da configuração dos racks e brackets. Explique cada um dos componentes. Você pode criar uma tabela contendo figuras dentro, ou criar uma tabela e incluí-la como imagem. Por exemplo, verifique a tabela \ref{tab1}.
-
-\input{tab1}
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{Planta1}
+	\caption{Esboço representando o cabeamento}
+	\label{Planta1}
+\end{figure}
+	
+  
 
 \subsection{Encaminhamento}
-Eletrodutos, calhas, e qualquer material em que os cabos serão alojados/alocados.
+	Os cabos serão alojados em eletrodutos para preservar a fiação
 
 \subsection{Memorial descritivo}
-
-Relacione todos os equipamentos passivos que serão utilizados, tipo, fabricante, quantidade.
+	Tipo: Switch 24 Portas, Fabricante: TPlink, Quantidade: 1.
+	Tipo: Roteador Gamer Wireless RT-AC68U, Fabricante: Asus, Quantidade: 2
 
 \subsection{Identificação dos cabos}
-Explique como os cabos serão identificados em seu projeto. Coloque uma relação dos cabos instalados e identificados.
-
+	Os cabos seriam identificados através de etiquetas, como por exemplo as numerações a seguir:
+	Para cada computador etiquetas: PC1, PC2, PC3, PC4, PC5.
+	Para cada Roteador: Router1, Router2.
+	
 \section{Implantação}
 Estabeleça um cronograma de implantação:
 Remoção de equipamentos existentes (destino para descarte), instalação dos condutores, instalação dos cabos, 
@@ -325,21 +328,6 @@ As figuras podem ser no formato PDF, JPG, PNG. Você pode referenciá-las da mes
 
 Não se preocupe o local em que a figura será renderizada em seu texto. Preocupe-se em criar referência para ela, ou seja, toda figura e tabela deve conter pelo menos uma referência no texto.
 
-\begin{figure}
-\centering
-\includegraphics[width=\textwidth]{fig1}
-\caption{Exemplo de figura com escala horizontal}
-\label{fig1}
-\end{figure}
-
-
-\begin{figure}
-	\centering
-	\includegraphics[]{fig2}
-	\caption{Exemplo de figura sem escala}
-	\label{fig2}
-\end{figure}
-
 Você pode rotacionar figuras também. Para isso utilize o parâmetro angle=-90. Repare que a escala da figura foi modificada pelo parametro height. Você também pode utilizar scale
 
 \begin{figure}
@@ -348,6 +336,8 @@ Você pode rotacionar figuras também. Para isso utilize o parâmetro angle=-90.
 	\caption{Exemplo de figura rotacionada}
 	\label{fig3}
 \end{figure}
+
+
 
 \subsubsection{Resumo gráfico}
 
